@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="5dp"
+    android:background="#03A9F4"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+
+                <TextView android:gravity="center_horizontal"
+
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Subject"
+                    android:id="@+id/wsubject"
+
+                    android:layout_weight="1"/>
+                <TextView
+                    android:gravity="center_horizontal"
+android:id="@+id/wdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+
+                    android:layout_weight="1"/>
+                <TextView android:gravity="center_horizontal"
+android:id="@+id/wtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+
+                    android:layout_weight="1"/>
+            </LinearLayout>
+            <View
+                android:layout_margin="20dp"
+                android:background="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Title : "
+                     android:id="@+id/t"/>
+                 <TextView
+                     android:id="@+id/wtitle"
+                     android:layout_toRightOf="@+id/t"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text=" Chapter 1"
+                     />
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_alignParentRight="true"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content">
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Teacher : "
+                     android:id="@+id/te"/>
+                 <TextView
+                     android:id="@+id/wteacher"
+                     android:layout_toRightOf="@+id/te"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text=" Niranjan"
+                     />
+             </LinearLayout>
+         </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description : "
+                        android:id="@+id/d"/>
+                    <TextView
+                        android:id="@+id/wdescription"
+                        android:layout_toRightOf="@+id/d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Write question and answers"
+                        />
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_launcher_background"
+                    android:id="@+id/wimage"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wclass"
+                android:text="Class"/>
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/wwork"
+                android:text="Work"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

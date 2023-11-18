@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnlineClass">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:hint="Enter Link / Paste"
+                            android:id="@+id/subject"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageID"
+
+                            />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:id="@+id/tim_"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageID"
+                            android:hint="Time" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:hint="Teacher"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/teacher_"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <Spinner
+                            android:id="@+id/spineer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="text"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:id="@+id/text"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Select Work"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <Spinner
+                            android:id="@+id/spineerwork"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="text"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:id="@+id/worktext"/>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/uploadBtnt"
+                        android:text="Upload"
+                        android:layout_below="@+id/chooseBtn"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+        <ProgressBar
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagedesign"
+    tools:context=".Complain_Class_Teacher">
+
+    <LinearLayout
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:drawableLeft="@drawable/create_24"
+            android:inputType="textCapCharacters"
+            android:id="@+id/aroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   Roll Number"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/opensans"
+            android:importantForAutofill="no"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"/>
+        <EditText
+            android:drawableLeft="@drawable/create_24"
+            android:inputType="textCapCharacters"
+            android:id="@+id/aname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   Name"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/opensans"
+            android:importantForAutofill="no"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"/>
+        <EditText
+            android:drawableLeft="@drawable/create_24"
+            android:inputType="textCapCharacters"
+            android:id="@+id/aquery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   Complain"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/opensans"
+            android:importantForAutofill="no"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/asubmit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

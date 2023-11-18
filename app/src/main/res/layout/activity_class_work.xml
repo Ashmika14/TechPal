@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassWork">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="20dp"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true"
+                        >
+                        <ImageView
+                            android:scaleType="fitXY"
+                            android:id="@+id/imageID"
+                            android:layout_width="match_parent"
+                            android:layout_height="370dp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardMaxElevation="12dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:hint="Enter Subject"
+                            android:id="@+id/imageNameET"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageID"
+
+                            />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:id="@+id/partname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageID"
+                            android:hint="Part name" />
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:hint="Enter Describe"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/describe"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:hint="Submit Date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/sdate"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:hint="Session"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/session"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <EditText
+                            android:drawableLeft="@drawable/create_24"
+                            android:inputType="textCapCharacters"
+                            android:hint="Teacher Name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/teachername"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Select Class"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <Spinner
+                            android:id="@+id/spineer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="text"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:id="@+id/text"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Select Work"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <Spinner
+                            android:id="@+id/spineerwork"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardBackgroundColor="@color/white"
+
+                        app:cardPreventCornerOverlap="true"
+                        android:layout_margin="5dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="text"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:id="@+id/worktext"/>
+
+                    </androidx.cardview.widget.CardView>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/chooseBtn"
+                        android:text="Choose Image"
+                        android:layout_below="@+id/imageNameET"
+                        android:onClick="selectImage"/>
+
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/uploadBtn"
+                        android:text="Upload Image"
+                        android:layout_below="@+id/chooseBtn"
+                        android:onClick="uploadImage"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+</LinearLayout>

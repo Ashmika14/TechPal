@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Register">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="20dp"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            app:cardPreventCornerOverlap="true"
+                            app:cardUseCompatPadding="true"
+                            >
+                            <ImageView
+                                android:scaleType="fitXY"
+                                android:id="@+id/imageID"
+                                android:layout_width="match_parent"
+                                android:layout_height="370dp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardMaxElevation="12dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Enter Name"
+                                android:id="@+id/imageNameET"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageID"
+
+                                />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:id="@+id/s_class"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/imageID"
+                                android:hint="Class name" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Enter Session"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_session"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Admission No."
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_addmission"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Roll Number"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_roll"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Gender"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_gender"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Father's Name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_fathername"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Mother's Name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_mothername"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Address"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_address"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Date of Birth"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_dob"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Father's Number"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_fathernumber"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Mother's Number"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_mothernumber"/>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="10dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardBackgroundColor="@color/white"
+
+                            app:cardPreventCornerOverlap="true"
+                            android:layout_margin="5dp"
+                            >
+                            <EditText
+                                android:inputType="textCapCharacters"
+                                android:hint="Blood Group"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/s_bloodgroup"/>
+                        </androidx.cardview.widget.CardView>
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/chooseBtn"
+                            android:text="Choose Image"
+                            android:layout_below="@+id/imageNameET"
+                            android:onClick="selectImage"/>
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/uploadBtn"
+                            android:text="Upload Image"
+                            android:layout_below="@+id/chooseBtn"
+                            android:onClick="uploadImage"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <ProgressBar
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

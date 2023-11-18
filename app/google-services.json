@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893921239304",
+    "project_id": "techpal-cf56e",
+    "storage_bucket": "techpal-cf56e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893921239304:android:6ec1185bc7c659cc398cbd",
+        "android_client_info": {
+          "package_name": "com.example.techpal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJBkc-vteI5GXbB9wKH6fucM2E7XXfRn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
